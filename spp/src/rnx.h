@@ -1,0 +1,1 @@
+int rdrnx_obs(char fname[]);
