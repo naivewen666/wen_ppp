@@ -1,11 +1,11 @@
 BIN=../bin
 SRC=../src
 CC=clang++
-CFLAGS=--std=c++11 -g -I$(SRC)
+CFLAGS= -g -std=c++17 -I$(SRC) #-I$(SRC)define .h file path
 
 
 
-spp		: spp.o rnx.o format.o
+spp		: spp.o rnx.o format.o # spp relay on spp.o rnx.o format.o
 
 spp.o	: spp.cpp
 	$(CC) $(CFLAGS) -c spp.cpp 

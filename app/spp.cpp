@@ -1,3 +1,10 @@
+/*============================
+* created by Wen Huang
+* introduction: main function of single point positioning
+*
+* date: 02.01.2023
+*
+*============================*/
 #include <iostream>
 #include <string> 
 #include "rnx.h"
